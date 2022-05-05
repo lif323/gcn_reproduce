@@ -4,7 +4,7 @@ Thomas N. Kipf, Max Welling, Semi-Supervised Classification with Graph Convoluti
 # Requirements
 - pytorch 1.11.0+cpu
 - python 3.10.2
+# Bug
+There is a bug in the officially implemented GCN, the test nodes are sorted. The discussion on this bug is as follows: https://github.com/tkipf/gcn/issues/76
 # Result
-官方实现的GCN存在一个bug,就是对test nodes 进行了排序,关于该bug的讨论如下
-https://github.com/tkipf/gcn/issues/76
 ![](./result_1.png)  
