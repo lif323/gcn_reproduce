@@ -1,5 +1,5 @@
 # Graph Convolutional Networks
-This is pytorch implementation of Graph Convolutional Networks for tassk of(semi-supervised) classification of nodes in a graph, as described in paper:
+This is pytorch implementation of Graph Convolutional Networks for task of(semi-supervised) classification of nodes in a graph, as described in paper:
 Thomas N. Kipf, Max Welling, Semi-Supervised Classification with Graph Convolutional Networks (ICLR 2017)
 # Requirements
 - pytorch 1.11.0+cpu
