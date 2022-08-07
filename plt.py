@@ -10,7 +10,8 @@ def plt_metrics(x, y1, y2):
     ax.set_xlabel("epoch")
     ax.set_ylabel("acc")
     plt.legend()
-    plt.savefig(col[1] + ".pdf", format="pdf", dpi=1200)
+    #plt.savefig(col[1] + ".pdf", format="pdf", dpi=1200)
+    plt.savefig("dropout_vs_nodropout.png", format="png", dpi=1200)
     plt.show()
 if __name__ == "__main__":
     data = pd.read_csv("./metrics_05.csv", sep='\t')

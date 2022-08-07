@@ -148,7 +148,6 @@ if __name__ == "__main__":
                         dropout_rate=args.dropout, weight_decayed=args.weight_decayed)
     labels = torch.tensor(labels)
     labels = torch.argmax(labels, dim=-1)
-    print("============")
     features = torch.sparse_coo_tensor(features[0], features[1], features[2])
     adj = torch.sparse_coo_tensor(adj[0], adj[1], adj[2]).type(features.dtype)
 
