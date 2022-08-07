@@ -4,7 +4,7 @@ Thomas N. Kipf, Max Welling, Semi-Supervised Classification with Graph Convoluti
 # Requirements
 - pytorch 1.12.1 cpu
 - python 3.9.7
-- # Quickstart
+# Quickstart
 ```
 python gcn.py
 ```
